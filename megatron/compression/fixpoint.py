@@ -1,8 +1,7 @@
 import torch
-import cupy
 import numpy as np
 
-from .utils import *
+# from .utils import *
 
 
 def _rounding(x, stochastic=False, minimum_stochastic_distance=0.2):
